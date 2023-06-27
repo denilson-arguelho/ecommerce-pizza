@@ -171,8 +171,28 @@ header {
   
   
   @media (max-width:376px){
-    .modal #video{
-      width: 250px;
-      height: 140px;
+    .conteudo-modal {
+        display: flex;
+        flex-direction: column;
+        width:100%;
+        height:100%;
+       
+    }
+
+    .pizzaInfo-modal{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+    }
+    .area-modal {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .pizzaBig > img{
+        height: 200px;
+     
     }
   }
