@@ -168,7 +168,6 @@ c('.menu-openner').addEventListener('click', () => {
     c('aside').style.left = '0'
    }
 
-    console.log(c('main').style);
 })
 
 c('.fechar-carrinho').addEventListener('click', () => {
@@ -197,16 +196,7 @@ function atualizarCarrinho() {
 
             let pizzaItem = pizzaJson.find((item) => item.id == carrinhoPizza[i].id)
 
-
             subtotal += pizzaItem.price * carrinhoPizza[i].qt
-
-
-
-
-
-
-
-
 
             let carrinhoItem = c('.models .pizza-cart').cloneNode(true);
 
@@ -244,7 +234,6 @@ function atualizarCarrinho() {
                 carrinhoPizza[i].qt++
                 atualizarCarrinho()
             })
-
 
             c('.carrinhoItem').append(carrinhoItem)
         }
