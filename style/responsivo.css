@@ -125,6 +125,11 @@ header {
         margin:5px 0;
         padding: 0;
     }
+
+    .pizzaBig > img{
+        height: 350px;
+     
+    }
 }
 
 
