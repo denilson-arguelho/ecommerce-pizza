@@ -163,9 +163,7 @@ h1 {
     color: #fff;
 }
 
-.selecionado:hover {
-    background-color: #399ade;
-}
+
 
 .pizzaInfo-tamanho1 {
     border-top-left-radius: 10px;
@@ -305,10 +303,13 @@ h1 {
 aside {
     background-color: #388bc5;
     padding: 20px;
+    top: 0;
+    left: 0;
+    right: 100%;
     display: none;
     width: 30%;
-    transition:all ease .2s;
-    overflow-x:hidden
+    transition: all ease .2s;
+    overflow-x: hidden
 }
 
 .carrinho-pizza-area {
@@ -378,12 +379,14 @@ aside {
     border-bottom-right-radius: 5px;
     cursor: pointer;
 }
-.carrinho-pizza-area{
+
+.carrinho-pizza-area {
     display: flex;
     justify-content: start;
-  align-items: flex-start;
+    align-items: flex-start;
 }
-.fechar-carrinho{
+
+.fechar-carrinho {
     display: none;
     background-color: #ffffff;
     color: #f03a17;

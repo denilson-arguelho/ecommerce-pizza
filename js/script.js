@@ -165,14 +165,19 @@ c('.menu-openner').addEventListener('click', () => {
     c('main').style.display = 'none'
     c('aside').style.display = 'block'
     c('aside').style.width = '100%'
+    c('aside').style.left = '0'
    }
 
     console.log(c('main').style);
 })
 
 c('.fechar-carrinho').addEventListener('click', () => {
-    c('aside').style.display = 'none'
+    c('aside').style.display = 'block'
     c('.pizza-area').style.display = 'flex'
+    c('.pizza-area').style.flexWrap = 'wrap'
+    c('aside').style.left = '100vw'
+    c('aside').style.width = '30%'
+   
     c('main').style.display = 'block'
 })
 
