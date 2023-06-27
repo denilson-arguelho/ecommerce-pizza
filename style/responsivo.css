@@ -127,9 +127,13 @@ header {
     }
 
     .pizzaBig > img{
-        height: 350px;
+        height: 250px;
      
     }
+    .pizzaBig{
+        margin-top: 30px;
+    }
+
 }
 
 
@@ -192,7 +196,15 @@ header {
         
     }
     .pizzaBig > img{
-        height: 160px;
-     
+        height: 150px;
+        width: 160px;
+    }
+
+    .btn-cancelar{
+        width: 150px;
+        height: 40px;
+        margin-right: 0;
+        text-align: center;
+        padding: 0;
     }
   }
