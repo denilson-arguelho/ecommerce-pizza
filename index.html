@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce Pizza</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/responsivo.css">
+    <script src="https://kit.fontawesome.com/f065cb2973.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Hepta+Slab:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="models">
+        <div class="pizza-item">
+            <a href="" id="linkAbrirModal">
+                <div class="pizza-item-img">
+                    <img src="">
+                </div>
+                <div class="pizza-item-add"><i class="fa-sharp fa-light fa-plus"></i></div>
+            </a>
+            <div class="pizza-item-price">R$ --</div>
+            <div class="pizza-item-name">--</div>
+            <div class="pizza-item-description">--</div>
+        </div>
+
+        <div class="pizza-cart">
+            <img src="">
+            <div class="cart-item-nome">--</div>
+            <div class="cart-item-qtarea">
+                <button class="cart-item-qtmenos2">-</button>
+                <div class="cart-item-qt2">1</div>
+                <button class="cart-item-qtmais2">+</button>
+            </div>
+        </div>
+    </div>
+    <main>
+        <header>
+            <div class="menu-openner">
+                <span>0</span>
+                <img src="./img/carrinho-de-compras.png" alt="" class="img-car">
+            </div>
+        </header>
+        <h1>Pizzas</h1>
+        <div class="pizza-area"></div>
+
+    </main>
+
+    <aside>
+        <div class="fechar-carrinho">
+            X
+        </div>
+        <div class="carrinho-pizza-area">
+            <h1>Suas Pizzas</h1>
+
+            <div class="carrinhoItem"></div>
+            <div class="carrinho">
+               
+                <div class="detalhes-carrinho">
+                    <div class="carrinho-totalItem subTotal">
+                        <span>Subtotal</span>
+                        <span>R$ --</span>
+                    </div>
+
+                    <div class="carrinho-totalItem desconto">
+                        <span>Desconto (-10%)</span>
+                        <span>R$ --</span>
+                    </div>
+
+                    <div class="carrinho-totalItem total">
+                        <span>Total</span>
+                        <span>R$ --</span>
+                    </div>
+                    <div class="carrinho-finalizar">Finalizar Compra</div>
+                </div>
+            </div>
+    </aside>
+
+
+    <div class="area-modal ">
+        <div class="conteudo-modal">
+            <div class="pizzaBig">
+                <img src="">
+            </div>
+            <div class="pizzaInfo-modal">
+                <h1 class="nomePizza-modal">--</h1>
+                <p class="descricaoPizza-modal">--</p>
+                <p class="tamanho-pizza-modal">Tamanho</p>
+
+                <div class="info-tamanho-pizza-modal ">
+                    <div data-key="0" class="pizzaInfo-tamanho pizzaInfo-tamanho1">PEQUENA <span>--</span></div>
+                    <div data-key="1" class="pizzaInfo-tamanho">MÉDIA <span>--</span></div>
+                    <div data-key="2" class="pizzaInfo-tamanho pizzaInfo-tamanho2 selecionado">GRANDE <span>--</span>
+                    </div>
+                </div>
+                <div class="info-precoTitulo">Preco</div>
+                <div class="info-preco-modal">
+                    <div class="precoFixoPizza">--</div>
+                    <div class="quantidadePizza">
+                        <button class="cart-item-qtmenos">-</button>
+                        <div class="cart-item-qt">1</div>
+                        <button class="cart-item-qtmais">+</button>
+                    </div>
+                </div>
+
+                <div class="buttons">
+                    <button class="btn-add-carrinho-modal">Adicionar ao carrinho</button>
+                    <button class="btn-cancelar">Cancelar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/pizzas.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
